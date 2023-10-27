@@ -1,13 +1,18 @@
 .main-page {
     background: linear-gradient(90deg, #FCFEFE 0%, #A5DEFF 100%);
-    padding-top: 124px;
+    width: 1360px;
+    height: 720px;
     padding-left: 95px;
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .main-page-text-container{
     width: 573px;
     height: 476px;
     flex-shrink: 0;
+    position: absolute;
+    top: 124px;
     border-radius: 40px;
     background: #FFF;
     padding-top: 60px;
@@ -17,6 +22,13 @@
     box-sizing: border-box;
 }
 
+.name-box{
+    margin-top: 60px;
+}
+
+.description-box{
+    margin-top: 24px;
+}
 .container-button{
     display: inline-flex;
     padding: 12px 24px;
@@ -26,8 +38,9 @@
     border-radius: 16px;
     background: #FF6B0A;
     border: none;
-
+    margin-top: 32px;
     color: #FFF;
+
 }
 
 .gus-selfie{
@@ -38,7 +51,18 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    position: absolute;
+    left: 692px;
 }
+
+.logo{
+    width: 100px;
+    height: 32px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 32px;
+}
+
 
 /* налаштування шрифтів*/
 
